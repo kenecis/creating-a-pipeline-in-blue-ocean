@@ -12,7 +12,7 @@ echo 'https://stackoverflow.com/questions/18875674/whats-the-difference-between-
 set -x
 # npm install --save-dev cross-env
 set +x
-
+echo 'Lorem Ipsum'
 echo 'The following "npm" command tests that your simple Node.js/React'
 echo 'application renders satisfactorily. This command actually invokes the test'
 echo 'runner Jest (https://facebook.github.io/jest/).'
