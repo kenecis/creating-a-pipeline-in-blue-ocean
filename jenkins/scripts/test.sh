@@ -17,4 +17,7 @@ echo 'The following "npm" command tests that your simple Node.js/React'
 echo 'application renders satisfactorily. This command actually invokes the test'
 echo 'runner Jest (https://facebook.github.io/jest/).'
 set -x
+
+cd /var/jenkins_home/workspace/a-pipeline-in-blue-ocean_develop/jenkins/scripts
+cat test.sh
 npm test
