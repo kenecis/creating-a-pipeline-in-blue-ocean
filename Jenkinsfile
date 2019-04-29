@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'cschockaert/docker-npm-maven:1.3.0'
-      args '--rm -it /bin/bash'
+      image 'node:6-alpine'
+      args '-p 3001:3001'
     }
 
   }
